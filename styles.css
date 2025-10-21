@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --grey-500: hsl(234, 12%, 34%);
+    --grey-400: hsl(212, 6%, 44%);
+    --white: hsl(0, 0%, 100%);
+
+    --spacing-100: 0.5rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-400: 2rem;
+    --spacing-500: 2.5rem;
+
+    --font-extra-light: 200; 
+    --font-regular: 400;
+    --font-semibold: 600;
+
+    --text-sm: 0.8125rem;
+    --text-base: 0.9375rem;
+    --text-lg: 1.25rem;
+    --text-xl: 2.25rem; 
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    padding-block: 0;
+    padding-inline: 0;
+    box-sizing: inherit;
+}
+
+.font-semibold {
+    font-weight: var(--font-semibold);
+}
+
+.font-regular {
+    font-weight: var(--font-regular);
+}
+
+.font-extra-light {
+    font-weight: var(--font-extra-light);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+    line-height: 160%;
+    letter-spacing: 0;
+}
+
+.text-base {
+    font-size: var(--text-base);
+    line-height: 140%;
+    letter-spacing: 0;
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+    line-height: 135%;
+    letter-spacing: 0;
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+.border-red {
+    border-color: var(--red);
+}
+
+.border-orange {
+    border-color: var(--orange);
+}
+
+.border-cyan {
+    border-color: var(--cyan);
+}
+
+.border-blue {
+    border-color: var(--blue);
+}
+
+.text-grey-500 {
+    color: var(--grey-500);
+}
+
+.text-grey-400 {
+    color: var(--grey-400);
+}
