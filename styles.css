@@ -54,6 +54,7 @@
     --max-page-header-w-desktop: 33.75rem;
     --max-card-w-mobile: 19.625rem;
     --max-card-w-desktop: 21.875rem;
+    --min-card-h: 15.625rem;
     --card-icon-size: 4rem;
 }
 
@@ -145,6 +146,7 @@ header.page-header {
 
 .card {
     max-width: clamp(var(--max-card-w-mobile), 40vw, var(--max-card-w-desktop));
+    min-height: var(--min-card-h);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-400);
